@@ -1,4 +1,4 @@
-.blu {
+.blue {
     background-color: blue;
 }
 
@@ -8,4 +8,9 @@
 
 .green {
     background-color: green;
+}
+
+div {
+    height: 100vh;
+    width: 100vw;
 }
