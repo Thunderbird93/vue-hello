@@ -5,13 +5,15 @@ createApp({
         return{
             //qui mettiamo le nostre "variabili"
             messaggio: 'This is Vue!',
-            bgColor: ""
+            bgColor: "",
+            counter: 0,
         }
     },
 
     methods: {
         colorChange(){
-            this.bgColor = "blue"
+            this.bgColor = "blue",
+            this.counter++
         }
     }
 }).mount('#app')

@@ -11,8 +11,10 @@
 <body>
     <div id="app">
         <div :class="bgColor">
-        <h1>{{messaggio}}</h1>
         <button @click="colorChange()">Cambia colore alla pagina!</button>
+        <h2>{{counter}}</h2>   
+        <h1>{{messaggio}}</h1>
+        <img v-show="counter %2===0" src="img/nsx.jpg" alt="car">
         <input type="text" v-model="messaggio">
         </div>
     </div>
